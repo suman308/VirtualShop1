@@ -1,0 +1,48 @@
+.message{
+  font-style: italic;
+  font-size: 310%;
+   color: rgb(252, 151, 0);
+   margin-left:10%;
+   margin-bottom:10%;
+   background-color: rgba(127, 187, 255, 0.349);
+   
+   
+}
+
+//---------------------------- index component 
+
+.index1{
+  margin-left:0.3%;
+  padding-left:5%;
+  padding-right:5%;
+  height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/slide-me-3f77d.appspot.com/o/living-room-wall-art-ideas-featured-homebnc.jpg?alt=media&token=ad36fd06-40c8-440c-a2cf-348e8a47ee1b);
+}
+
+.moto {
+  
+  height:100px;
+  max-width:100%;
+  font-size: 50px;
+  color:rgb(216, 75, 10);
+ 
+  margin-bottom: 200px;
+  animation: mymove 5s infinite;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes mymove {
+  from {left: -50px; color:red}
+  to {left:200px;}
+ 
+
+}
+
+
+
+
+
+

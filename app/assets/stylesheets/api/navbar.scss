@@ -1,0 +1,35 @@
+.Navbar{
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px -2px rgb(189, 186, 186);
+    background-color: rgb(214, 212, 208);
+    border-bottom: solid rgb(189, 187, 187);
+    padding-left:4px;
+}
+
+.Category{
+    display: block;
+    height:35px;
+    width:95px;
+     color: rgb(250, 173, 57);
+    margin-bottom:8px;
+    margin-top:8px;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    padding-top:12px;
+    border-radius:4px;
+    cursor: pointer;
+    
+}
+.Category:hover{ 
+ display: block;
+ color: rgba(255, 254, 254, 0.651);
+ background-color: rgba(58, 56, 56, 0.144);
+}
+
+.Category:active{ 
+ display: block;
+ color: rgba(255, 254, 254, 0.651);
+ background-color: rgba(20, 20, 20, 0.596);
+}

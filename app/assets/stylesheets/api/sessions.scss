@@ -1,0 +1,364 @@
+// Place all the styles related to the api/sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(138, 142, 146, 0.7);
+  z-index: 10;
+  
+}
+
+.modal-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.form-outermost {
+   display:block;
+   align-items: center;
+   min-height: 570px;
+   min-width: 360px;
+   background: #f8f8f8;
+   border-radius:4px 4px;
+   box-shadow: 1px 2.5px 2px 2.5px #9c9b9b;
+   opacity: 1;
+   
+  
+}
+
+.session-submit{
+  display:block; 
+  position: relative;
+
+  min-width:310px;
+  height: 50px;
+  color:rgb(223, 219, 219);
+  font-size: 20px;
+  border-radius: 3px;
+  align-self: center;
+  background-color: black;
+}
+
+
+.session-submit:hover{
+  background-color: rgba(3, 1, 1, 0.829);
+  
+  
+
+}
+
+
+
+.session-submit2{
+  display:block; 
+  position: relative;
+
+  min-width:310px;
+  height: 50px;
+  color:rgb(223, 219, 219);
+  font-size: 20px;
+  border-radius: 3px;
+  align-self: center;
+  background-color: black;
+}
+
+
+.session-submit2:hover{
+  background-color: rgba(3, 1, 1, 0.829);
+}
+
+.Input-container {
+  width: 300px;
+  height:50;
+  display:block; 
+  margin:10px;
+  border-radius: 6px;
+  border: rgb(104, 187, 243);
+  align-content: right;
+  
+}
+
+
+
+.login-input{
+  width:300px ;
+  min-height:38px;
+  border-radius: 3px;
+  border-color: rgb(194, 198, 201);
+
+}
+
+.login-input:hover{
+   border-color: rgb(138, 140, 141);
+
+}
+
+.form-header {
+  display:block; 
+  justify-content:space-between;
+  margin-bottom:50px;
+}
+
+.title {
+  text-align: center;
+  color:rgb(7, 7, 7);
+  font-size: 20px;
+  font-style: italic;
+  padding-top:15px;
+ 
+  
+}
+
+.container {
+  display:block;
+  margin:10px;
+}
+
+.form-header{ 
+  background-color: rgb(103, 189, 255);
+  
+ 
+}
+
+.session-submit:active{
+  background-color:rgb(85, 255, 255);
+  color:rgb(17, 20, 18);
+
+}
+
+.error-text{
+  color: rgb(255, 56, 56);
+  display:block;
+  text-align: center;
+ margin: 2px;
+
+}
+
+.login-signup {
+  display:flex; 
+  justify-content:space-between;
+  align-items: center;
+  min-height: 70px;
+  background-color: rgb(233, 236, 236);
+}
+
+
+
+.astrix{
+  color:rgb(253, 40, 40);
+  font-size:19px;
+  text-align:down;
+}
+
+.input-label{
+color:rgb(0, 0, 0);
+font-size: 16px;
+font-style: bold;
+}
+
+
+
+
+
+
+ .greeting {
+   width:100%;
+   color: rgb(255, 181, 22);
+   font-size: 20px;
+   margin-left: 15px;
+ }
+
+
+.session-submit3{
+  display:block; 
+  position: relative;
+
+  min-width:310px;
+  height: 50px;
+  color:rgba(255, 255, 255, 1);
+  font-size: 20px;
+  border-radius: 3px;
+  align-self: center;
+  background-color: black;
+  
+}
+.session-submit3:hover{
+    display:block;
+    background-color: rgba(2, 0, 0, 0.815);
+    
+  
+}
+// the sing in button on the top of the greeting or header of the page 
+
+
+.ls-inline-container {
+  display: flex; 
+  height:55px; 
+  width: 320px;
+  margin:10px;
+  
+ 
+}
+.ls-inline{
+   height: 33px;
+  width: 80px;
+  margin:5px;
+  font-size:17px;
+  text-align:center;
+  padding-top: 12px;
+  border-radius: 24px;
+}
+
+.ls-inline:hover{
+ 
+  background-color: rgb(214, 214, 214);
+  
+}
+
+.ls-inline:active{display:block;
+  background-color: rgb(128, 124, 124);
+  color:white;
+  
+}
+
+///--------------------------------------------//////////////-cart icon ---------------------------------------
+
+.ls-inlineCT{
+  height: 40px;
+  width: 40px;
+  padding-top: 0.012%;
+  padding-right:2.3%;
+  border-radius:20px;
+}
+
+
+.ls-inlineCT:hover{
+ 
+  background-color: rgb(214, 214, 214);
+  
+}
+
+.ls-inlineCT:active {
+  display:block;
+  background-color: rgb(107, 102, 102);
+  color:white;
+  
+}
+// the search bar 
+
+
+.search{
+   display:inline-flex ;
+  margin:10px;
+  width:75%; 
+  
+}
+
+.search:focus {
+  outline: none  !important;
+  
+}
+
+.search-bar{
+  display:block ;
+  height: 52px;
+  width:76%;
+  background-color:rgb(223, 222, 222);
+  border:  rgb(177, 174, 174) solid 1px;
+  outline: none  !important;
+  border-right:none;
+  border-top-left-radius:26px;
+  border-bottom-left-radius:26px;
+  box-shadow: inset 0px 0.2px 0.3px  rgb(141, 139, 139);
+  font-size: 18px;
+  text-indent:80px;  
+  
+}
+.search-bar:focus{
+  background-color:white;
+}
+
+.search-bar:focus ~ .submit-button{
+  background-color:white;
+}
+.submit-button {
+  display:block; 
+  height:54px;
+  width:66px;
+   background-color:rgb(223, 222, 222);
+  border-top-right-radius: 26px;
+  border-bottom-right-radius:26px;
+  border: rgb(177, 174, 174) solid 1px;
+  outline: none  !important;
+  box-shadow: inset 0px 0.5px 0.5px  rgb(141, 139, 139);
+  border-left:none;
+  
+  font-size:40px;
+  overflow-wrap: normal;
+  
+  
+}
+.submit-button:hover {
+  background-color: gray;
+}
+.submit-button:active {
+  background-color: rgb(102, 98, 98);
+  color:rgb(168, 171, 175);
+}
+
+// ---------------------- the logo and the heading --------------------------------------
+
+.Virtual-logo{
+display:block;
+height:90px; 
+width:130px;
+background-size: 120px 80px;
+background-image: url(https://virtualshop-dev.s3-us-west-1.amazonaws.com/virtula-shop-logo.png);
+background-repeat: no-repeat;
+margin-top:2px;
+
+
+}
+
+.offset{
+  display:block;
+  height:2px;
+  margin-top: 2px;
+}
+
+.searchIcon{
+  height:52px;
+  width:53px;
+}
+
+.Cart-Icon {
+  padding-left: 4px;
+  padding-top: 4px;
+  height: 32px; 
+  width: 32px;
+}
+
+
+.divider{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 60px;
+    width: 2px;
+    background-color: rgb(255, 251, 251);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.divider1{
+    margin: 5px;
+    height: 2px;
+    width:100%;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0.5px 0.5px 2px rgba(112, 108, 108, 0.692);
+}

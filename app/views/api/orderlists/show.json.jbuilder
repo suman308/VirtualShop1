@@ -1,0 +1,1 @@
+json.partial! "api/orderlists/orderlist", orderlist: @orderlist

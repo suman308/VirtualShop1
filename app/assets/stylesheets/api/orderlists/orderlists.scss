@@ -1,0 +1,187 @@
+.No-item{
+    display: block;
+    font-size: 35px;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(8, 180, 80);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.image-order1{
+    height:50px; 
+    width:50px;
+}
+.image-order {
+    display:block;
+    height:120px;
+    width:120px;
+    margin:10px;
+    
+}
+.order-quantity{
+    display:block;
+    height: 40px;
+    width:150px;
+    
+   
+}
+.text-name {
+font-size: 17px;
+color:rgb(39, 29, 29);
+margin:4px;
+
+
+font-family: 'Times New Roman', Times, serif; 
+}
+.text-price {
+background-color: rgb(253, 207, 1);
+margin:6px;  
+border-radius: 9px;
+text-align: center;
+color:rgb(235, 0, 0);
+}
+.text-quantity{
+background-color: rgb(253, 207, 1);
+margin:6px;
+border-radius: 8px;
+text-align: center;
+color:rgb(235, 0, 0);
+}
+.outer-outer-box-order{
+    display:block;
+    border: solid 1px rgb(196, 192, 192);
+    margin:2px;
+    max-width:400px;
+
+}
+.outer-box-order{
+    display:block;
+    height:300px;
+    width:300px;
+    margin:8px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.cart{
+    display:block;
+    
+}
+
+.items-in-cart {
+    display:flex;
+    font-size:20px; 
+    margin:10px; 
+
+}
+.main-cart-page{
+    display:flex;
+      
+    height:1000px;
+    width:100%;
+   
+    background-color: rgb(255, 241, 241);
+   
+}
+.under-main-cart{
+    display:block;
+    height:100%;
+    width:100%;
+   
+    
+}
+.small-name-pic{
+    display:flex;
+}
+
+
+
+.checkout-container{
+    display:block;
+    background-color: rgb(255, 255, 255);
+    height:400px;
+    max-width:500px;
+    border-radius: 8px;
+    box-shadow: 0 0 7px 1px;
+    margin:15px;
+   
+}
+
+.paying-method {
+    display: flex;
+}
+.icon-holder-container{
+   display: flex;
+   align-content: center;
+   padding:5px;
+}
+.icon-holder{
+    display:flex; 
+    height:60px; 
+    width:60px;
+    margin:15px;
+    padding:2px;
+}
+
+.radio-button {
+    margin:5px;
+}
+
+cart-outer {
+    display:flex;
+    box-shadow: 2px 4px 10px rgb(228, 225, 225);
+    width:600px;
+    margin-left:100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom:2px gainsboro solid ;
+}
+.check-out {
+    display:block;
+    height:25px; 
+    width:300px; 
+    color:rgb(255, 255, 255);
+    background-color: rgb(10, 0, 0);
+    margin:30px;
+    text-align: center;
+    padding:10px;
+    font-size:20px;
+    border-radius: 27px;
+    
+}
+.check-out:hover{
+    background-color: rgb(75, 73, 73);
+}
+.check-out:active{
+    background-color: rgb(66, 52, 52);
+    color: rgb(5, 5, 5);
+  
+   
+}
+.how-pay{
+
+    text-indent:20px ;
+    font-size:20px;
+    padding-top:20px;
+}
+.just-under-main-cart{
+    display: flex;
+    height:100%; 
+    width:80%;
+    background-color: white;
+    padding-left: 10%;
+    border: solid 2px rgb(168, 163, 163);
+}
+.total-price{
+    font-size: 20px;
+    text-indent:20px;
+    margin-left: 20px;
+}
+.line {
+    height:1.5px;
+    width:300px;
+    background-color: rgb(194, 194, 194);
+    margin:35px;
+
+
+
+}

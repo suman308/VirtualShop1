@@ -1,0 +1,1 @@
+json.extract! rating, :id,  :user_id, :product_id, :rating
