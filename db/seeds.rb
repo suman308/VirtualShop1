@@ -467,73 +467,73 @@ rating17 = Rating.create(user_id:u1.id, product_id:product6.id, rating:4.5)
 comment17 = Comment.create(user_id:u1.id, product_id:product6.id, body:"It is the exciting bookselves to have in the price ")
 
 rating18 = Rating.create(user_id:u6.id, product_id:product6.id, rating:4.5)
-comment18 = Comment.create(user_id:u6.id, product_id:product6.id, body:"I recommend it to everyone. I liked the price and the product")
+comment18 = Comment.create(user_id:u6.id, product_id:product6.id, body:"what a product.I recommend it to everyone. I liked the price and the product")
 
 rating19 = Rating.create(user_id:u8.id, product_id:product6.id, rating:4.5)
-comment19 = Comment.create(user_id:u8.id, product_id:product6.id, body:"good return for the price we pay. Totally worth it")
+comment19 = Comment.create(user_id:u8.id, product_id:product6.id, body:"Damn good return for the price we pay. Totally worth it")
 # =====================product7 =============================================
 rating20 = Rating.create(user_id:u10.id, product_id:product7.id, rating:4.5)
-comment20 = Comment.create(user_id:u10.id, product_id:product7.id, body:"good return for the price we pay. Totally worth it")
+comment20 = Comment.create(user_id:u10.id, product_id:product7.id, body:"A very good return for investment. Totally recommend")
 
 rating21 = Rating.create(user_id:u3.id, product_id:product7.id, rating:4.5)
-comment21 = Comment.create(user_id:u3.id, product_id:product7.id, body:"good return for the price we pay. Totally worth it")
+comment21 = Comment.create(user_id:u3.id, product_id:product7.id, body:"I recommend it to everyone and it is worth the price ")
 
 rating22 = Rating.create(user_id:u7.id, product_id:product7.id, rating:4.5)
-comment22 = Comment.create(user_id:u7.id, product_id:product7.id, body:"good return for the price we pay. Totally worth it")
+comment22 = Comment.create(user_id:u7.id, product_id:product7.id, body:"I recommend this product. Loved the delivery and customer care")
 # =====================product8 =============================================
 rating23 = Rating.create(user_id:u17.id, product_id:product8.id, rating:4.5)
-comment23 = Comment.create(user_id:u17.id, product_id:product8.id, body:"good return for the price we pay. Totally worth it")
+comment23 = Comment.create(user_id:u17.id, product_id:product8.id, body:"Beautiful frame for the books that is suited for the reading room or the bedroom")
 
 rating24 = Rating.create(user_id:u12.id, product_id:product8.id, rating:4.5)
-comment24 = Comment.create(user_id:u12.id, product_id:product8.id, body:"good return for the price we pay. Totally worth it")
+comment24 = Comment.create(user_id:u12.id, product_id:product8.id, body:"Beautiful atics and decorative piece for the home decoration. Recommend it")
 
 rating25 = Rating.create(user_id:u13.id, product_id:product8.id, rating:4.5)
 comment25 = Comment.create(user_id:u13.id, product_id:product8.id, body:"good return for the price we pay. Totally worth it")
 # =====================product9 =============================================
 rating26 = Rating.create(user_id:u13.id, product_id:product9.id, rating:4.5)
-comment26 = Comment.create(user_id:u13.id, product_id:product9.id, body:"good return for the price we pay. Totally worth it")
+comment26 = Comment.create(user_id:u13.id, product_id:product9.id, body:"A good arabic hukka piece for the decoration and the show piece")
 
 rating27 = Rating.create(user_id:u11.id, product_id:product9.id, rating:4.5)
-comment27 = Comment.create(user_id:u11.id, product_id:product9.id, body:"good return for the price we pay. Totally worth it")
+comment27 = Comment.create(user_id:u11.id, product_id:product9.id, body:"colorful and shiny hukka from arabic artistic culture.Higly recommend it for all")
 
 rating28 = Rating.create(user_id:u14.id, product_id:product9.id, rating:4.5)
-comment28 = Comment.create(user_id:u14.id, product_id:product9.id, body:"good return for the price we pay. Totally worth it")
+comment28 = Comment.create(user_id:u14.id, product_id:product9.id, body:"Totally exotic art piece form middle east that carry heritage with it.Go for it")
 # =====================product10 =============================================
 rating29 = Rating.create(user_id:u1.id, product_id:product10.id, rating:4.5)
-comment29 = Comment.create(user_id:u1.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
+comment29 = Comment.create(user_id:u1.id, product_id:product10.id, body:" a very good return for the price we pay for the leather cover . Totally worth it")
 
 rating30 = Rating.create(user_id:u2.id, product_id:product10.id, rating:4.5)
-comment30 = Comment.create(user_id:u2.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
+comment30 = Comment.create(user_id:u2.id, product_id:product10.id, body:"Beautiful leather cover and shiny surface. Worth the price")
 
 rating31 = Rating.create(user_id:u3.id, product_id:product10.id, rating:4.5)
-comment31 = Comment.create(user_id:u3.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
+comment31 = Comment.create(user_id:u3.id, product_id:product10.id, body:"Loved the product and the service. I have order few days back and it was very good")
 # =====================product11 =============================================
 rating32 = Rating.create(user_id:u11.id, product_id:product11.id, rating:3.5)
-comment32 = Comment.create(user_id:u11.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
+comment32 = Comment.create(user_id:u11.id, product_id:product11.id, body:"nice day planner book for the reasonable price")
 
 rating33 = Rating.create(user_id:u17.id, product_id:product11.id, rating:3.5)
 comment33 = Comment.create(user_id:u17.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
 
 rating34 = Rating.create(user_id:u13.id, product_id:product11.id, rating:3.5)
-comment34 = Comment.create(user_id:u13.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
+comment34 = Comment.create(user_id:u13.id, product_id:product11.id, body:"recommend this product to all who need the daily planner for the reasonable price")
 # =====================product12 =============================================
 rating35 = Rating.create(user_id:u1.id, product_id:product12.id, rating:4.5)
-comment35 = Comment.create(user_id:u1.id, product_id:product12.id, body:"good return for the price we pay. Totally worth it")
+comment35 = Comment.create(user_id:u1.id, product_id:product12.id, body:"A very good return for the price we pay. Totally worth it")
 
 rating36 = Rating.create(user_id:u7.id, product_id:product12.id, rating:4.5)
-comment36 = Comment.create(user_id:u7.id, product_id:product12.id, body:"good return for the price we pay. Totally worth it")
+comment36 = Comment.create(user_id:u7.id, product_id:product12.id, body:"The best product for the shakespare lover. Highly recommend it ")
 
 rating37 = Rating.create(user_id:u8.id, product_id:product12.id, rating:4.5)
-comment37 = Comment.create(user_id:u8.id, product_id:product12.id, body:"good return for the price we pay. Totally worth it")
+comment37 = Comment.create(user_id:u8.id, product_id:product12.id, body:"Nice collection of the shakespare work with the hardcover ")
 # =====================product13 =============================================
 rating38 = Rating.create(user_id:u3.id, product_id:product13.id, rating:2.5)
-comment39 = Comment.create(user_id:u3.id, product_id:product13.id, body:"good return for the price we pay. Totally worth it")
+comment39 = Comment.create(user_id:u3.id, product_id:product13.id, body:"thick and warm hoodies for the winder. But the quality of fiber is very poor ")
 
 rating40= Rating.create(user_id:u7.id, product_id:product13.id, rating:2.5)
-comment40 = Comment.create(user_id:u7.id, product_id:product13.id, body:"good return for the price we pay. Totally worth it")
+comment40 = Comment.create(user_id:u7.id, product_id:product13.id, body:"Beautiful hoodie with nice color is not so durable.It was torn just after one week")
 
 rating41= Rating.create(user_id:u11.id, product_id:product13.id, rating:2.5)
-comment41 = Comment.create(user_id:u11.id, product_id:product13.id, body:"good return for the price we pay. Totally worth it")
+comment41 = Comment.create(user_id:u11.id, product_id:product13.id, body:"It looks fancy but it is not durable or sophisticated. Go for more expensive ones")
 # =====================product14 =============================================
 rating42= Rating.create(user_id:u3.id, product_id:product14.id, rating:3.5)
 comment42 = Comment.create(user_id:u3.id, product_id:product14.id, body:"good return for the price we pay. Totally worth it")
@@ -641,8 +641,8 @@ comment85= Comment.create(user_id:u7.id, product_id:product21.id, body:"good ret
 rating86 = Rating.create(user_id:u6.id, product_id:product23.id, rating:3)
 comment86 = Comment.create(user_id:u6.id, product_id:product23.id, body:"good return for the price we pay. Totally worth it")
 rating87 = Rating.create(user_id:u5.id, product_id:product2.id, rating:3.5)
-comment87 = Comment.create(user_id:u7.id, product_id:product2.id, body:"good return for the price we pay. Totally worth it")
-rating88 = Rating.create(user_id:u5.id, product_id:product1.id, rating:3)
+comment87 = Comment.create(user_id:u5.id, product_id:product2.id, body:"good return for the price we pay. Totally worth it")
+rating88 = Rating.create(user_id:u7.id, product_id:product1.id, rating:3)
 comment88 = Comment.create(user_id:u7.id, product_id:product1.id, body:"good return for the price we pay. Totally worth it")
 
  
