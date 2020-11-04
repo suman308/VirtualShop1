@@ -7,6 +7,7 @@ User.destroy_all
 Store.destroy_all 
 Product.destroy_all
 Rating.destroy_all
+Comment.destroy_all
 # Seed users
 
 DemoUser = User.create(username: 'demo', email: 'DemoUser', password: 'password')
@@ -419,114 +420,230 @@ product24.images.attach(io: picJewelryTopaz4, filename:'topaz4.jpg')
 # =====================================================================
 
 # ==============================rating =================================
+# ===============================comment================================
+# ==============================product1===============================
 rating1 = Rating.create(user_id:u1.id, product_id:product1.id, rating:4.5)
+comment1 = Comment.create(user_id:u1.id, product_id:product1.id, body:"very good product. I highly recommend it.")
+
 rating2 = Rating.create(user_id:u2.id, product_id:product1.id, rating:3.5)
+comment2 = Comment.create(user_id:u2.id, product_id:product1.id, body:"very good product compared to the price it has on it. I  recommend it.")
+
 rating3 = Rating.create(user_id:u3.id, product_id:product1.id, rating:2.5)
-
+comment3 = Comment.create(user_id:u3.id, product_id:product1.id, body:"It is a  okey product compared to the price it has on it. I  recommend it on your own risk.")
+# ====================product2============================
 rating4 = Rating.create(user_id:u4.id, product_id:product2.id, rating:1.5)
+comment4 = Comment.create(user_id:u4.id, product_id:product2.id, body:"When it was deliverd, it was broken and when i contacted they didn't replace it. I  don't recommend it.")
 rating5 = Rating.create(user_id:u5.id, product_id:product2.id, rating:4.5)
+comment5 = Comment.create(user_id:u5.id, product_id:product2.id, body:"The colors are bright and dense. Make the room have vibrant energy. I  recommend it to anyone who has taste for fine art.")
 rating6 = Rating.create(user_id:u6.id, product_id:product2.id, rating:2.5)
+comment6 = Comment.create(user_id:u6.id, product_id:product2.id, body:"I don't find the product very exciting and don't recommend to other. Take a wise shot and buy it if you have lot to spare")
 
+# ====================product3===========================================
 rating7 = Rating.create(user_id:u1.id, product_id:product3.id, rating:2.5)
+comment7 = Comment.create(user_id:u1.id, product_id:product3.id, body:"Not a very good painting according to the established standard. Take a wise shot and buy it if you have lot to spare")
 rating8 = Rating.create(user_id:u11.id, product_id:product3.id, rating:4.0)
+comment8 = Comment.create(user_id:u11.id, product_id:product3.id, body:" A very good painting according to the established standard. Take a wise shot and buy it.")
 rating9 = Rating.create(user_id:u12.id, product_id:product3.id, rating:4.0)
-
+comment9 = Comment.create(user_id:u12.id, product_id:product3.id, body:"A very bright and coherent oil painting that is meant for the living and drawing room")
+# =====================product4 =============================================
 rating10 = Rating.create(user_id:u10.id, product_id:product4.id, rating:5.0)
+comment10 = Comment.create(user_id:u10.id, product_id:product4.id, body:"A very bright and coherent oil painting that is meant for the living and drawing room")
+
 rating11 = Rating.create(user_id:u12.id, product_id:product4.id, rating:4.0)
+comment11 = Comment.create(user_id:u12.id, product_id:product4.id, body:"A very beautiful painting i highly recommend for painting lover")
 rating12 = Rating.create(user_id:u13.id, product_id:product4.id, rating:4.5)
+comment12 = Comment.create(user_id:u13.id, product_id:product4.id, body:"Good decorative thing for the wall. If you can afford it go for it")
 rating13 = Rating.create(user_id:u14.id, product_id:product4.id, rating:4.5)
-
+comment13 = Comment.create(user_id:u14.id, product_id:product4.id, body:"I highly recommend the painting and i also love the packaging and delivery")
+# =====================product5 =============================================
 rating14 = Rating.create(user_id:u15.id, product_id:product5.id, rating:4.5)
+comment14 = Comment.create(user_id:u15.id, product_id:product5.id, body:"I recommend this ")
 rating15 = Rating.create(user_id:u19.id, product_id:product5.id, rating:4.5)
+comment15 = Comment.create(user_id:u19.id, product_id:product5.id, body:"I highly recommend the painting and i also love the packaging and delivery")
 rating16 = Rating.create(user_id:u12.id, product_id:product5.id, rating:4.5)
-
+comment16 = Comment.create(user_id:u12.id, product_id:product5.id, body:"I highly recommend the painting ")
+# =====================product6 =============================================
 rating17 = Rating.create(user_id:u1.id, product_id:product6.id, rating:4.5)
+comment17 = Comment.create(user_id:u1.id, product_id:product6.id, body:"It is the exciting bookselves to have in the price ")
+
 rating18 = Rating.create(user_id:u6.id, product_id:product6.id, rating:4.5)
+comment18 = Comment.create(user_id:u6.id, product_id:product6.id, body:"I recommend it to everyone. I liked the price and the product")
+
 rating19 = Rating.create(user_id:u8.id, product_id:product6.id, rating:4.5)
+comment19 = Comment.create(user_id:u8.id, product_id:product6.id, body:"good return for the price we pay. Totally worth it")
+# =====================product7 =============================================
+rating20 = Rating.create(user_id:u10.id, product_id:product7.id, rating:4.5)
+comment20 = Comment.create(user_id:u10.id, product_id:product7.id, body:"good return for the price we pay. Totally worth it")
 
-rating20 = Rating.create(user_id:u1.id, product_id:product7.id, rating:4.5)
-rating21 = Rating.create(user_id:u1.id, product_id:product7.id, rating:4.5)
-rating22 = Rating.create(user_id:u1.id, product_id:product7.id, rating:4.5)
+rating21 = Rating.create(user_id:u3.id, product_id:product7.id, rating:4.5)
+comment21 = Comment.create(user_id:u3.id, product_id:product7.id, body:"good return for the price we pay. Totally worth it")
 
-rating23 = Rating.create(user_id:u1.id, product_id:product8.id, rating:4.5)
-rating24 = Rating.create(user_id:u1.id, product_id:product8.id, rating:4.5)
-rating25 = Rating.create(user_id:u1.id, product_id:product8.id, rating:4.5)
+rating22 = Rating.create(user_id:u7.id, product_id:product7.id, rating:4.5)
+comment22 = Comment.create(user_id:u7.id, product_id:product7.id, body:"good return for the price we pay. Totally worth it")
+# =====================product8 =============================================
+rating23 = Rating.create(user_id:u17.id, product_id:product8.id, rating:4.5)
+comment23 = Comment.create(user_id:u17.id, product_id:product8.id, body:"good return for the price we pay. Totally worth it")
 
-rating26 = Rating.create(user_id:u1.id, product_id:product9.id, rating:4.5)
-rating27 = Rating.create(user_id:u1.id, product_id:product9.id, rating:4.5)
-rating28 = Rating.create(user_id:u1.id, product_id:product9.id, rating:4.5)
+rating24 = Rating.create(user_id:u12.id, product_id:product8.id, rating:4.5)
+comment24 = Comment.create(user_id:u12.id, product_id:product8.id, body:"good return for the price we pay. Totally worth it")
 
+rating25 = Rating.create(user_id:u13.id, product_id:product8.id, rating:4.5)
+comment25 = Comment.create(user_id:u13.id, product_id:product8.id, body:"good return for the price we pay. Totally worth it")
+# =====================product9 =============================================
+rating26 = Rating.create(user_id:u13.id, product_id:product9.id, rating:4.5)
+comment22 = Comment.create(user_id:u13.id, product_id:product9.id, body:"good return for the price we pay. Totally worth it")
+
+rating27 = Rating.create(user_id:u11.id, product_id:product9.id, rating:4.5)
+comment22 = Comment.create(user_id:u11.id, product_id:product9.id, body:"good return for the price we pay. Totally worth it")
+
+rating28 = Rating.create(user_id:u14.id, product_id:product9.id, rating:4.5)
+comment22 = Comment.create(user_id:u14.id, product_id:product9.id, body:"good return for the price we pay. Totally worth it")
+# =====================product10 =============================================
 rating29 = Rating.create(user_id:u1.id, product_id:product10.id, rating:4.5)
-rating30 = Rating.create(user_id:u1.id, product_id:product10.id, rating:4.5)
-rating31 = Rating.create(user_id:u1.id, product_id:product10.id, rating:4.5)
+comment22 = Comment.create(user_id:u1.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
 
-rating31 = Rating.create(user_id:u1.id, product_id:product11.id, rating:3.5)
-rating32 = Rating.create(user_id:u1.id, product_id:product11id, rating:3.5)
-rating33 = Rating.create(user_id:u1.id, product_id:product11.id, rating:3.5)
+rating30 = Rating.create(user_id:u2.id, product_id:product10.id, rating:4.5)
+comment22 = Comment.create(user_id:u2.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
 
+rating31 = Rating.create(user_id:u3.id, product_id:product10.id, rating:4.5)
+comment22 = Comment.create(user_id:u3.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
+# =====================product11 =============================================
+rating31 = Rating.create(user_id:u11.id, product_id:product11.id, rating:3.5)
+comment22 = Comment.create(user_id:u11.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
+
+rating32 = Rating.create(user_id:u17.id, product_id:product11.id, rating:3.5)
+comment22 = Comment.create(user_id:u17.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
+
+rating33 = Rating.create(user_id:u13.id, product_id:product11.id, rating:3.5)
+comment22 = Comment.create(user_id:u13.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
+# =====================product12 =============================================
 rating34 = Rating.create(user_id:u1.id, product_id:product12.id, rating:4.5)
-rating35 = Rating.create(user_id:u1.id, product_id:product12.id, rating:4.5)
-rating36 = Rating.create(user_id:u1.id, product_id:product12.id, rating:4.5)
+comment22 = Comment.create(user_id:u1.id, product_id:product12.id, body:"good return for the price we pay. Totally worth it")
 
-rating37 = Rating.create(user_id:u1.id, product_id:product13.id, rating:2.5)
-rating38 = Rating.create(user_id:u1.id, product_id:product13.id, rating:2.5)
-rating39 = Rating.create(user_id:u1.id, product_id:product13.id, rating:2.5)
+rating35 = Rating.create(user_id:u7.id, product_id:product12.id, rating:4.5)
+comment22 = Comment.create(user_id:u7.id, product_id:product12.id, body:"good return for the price we pay. Totally worth it")
 
-rating40 = Rating.create(user_id:u1.id, product_id:product14.id, rating:3.5)
-rating41 = Rating.create(user_id:u1.id, product_id:product14.id, rating:4.5)
-rating42 = Rating.create(user_id:u1.id, product_id:product14.id, rating:1.5)
+rating36 = Rating.create(user_id:u8.id, product_id:product12.id, rating:4.5)
+comment22 = Comment.create(user_id:u8.id, product_id:product12.id, body:"good return for the price we pay. Totally worth it")
+# =====================product13 =============================================
+rating37 = Rating.create(user_id:u3.id, product_id:product13.id, rating:2.5)
+comment22 = Comment.create(user_id:u3.id, product_id:product13.id, body:"good return for the price we pay. Totally worth it")
 
-rating43 = Rating.create(user_id:u1.id, product_id:product15.id, rating:4.5)
-rating44 = Rating.create(user_id:u1.id, product_id:product15.id, rating:4.5)
-rating45 = Rating.create(user_id:u1.id, product_id:product15.id, rating:4.5)
+rating38 = Rating.create(user_id:u7.id, product_id:product13.id, rating:2.5)
+comment22 = Comment.create(user_id:u7.id, product_id:product13.id, body:"good return for the price we pay. Totally worth it")
 
-rating46 = Rating.create(user_id:u1.id, product_id:product16.id, rating:4.5)
-rating47 = Rating.create(user_id:u1.id, product_id:product16.id, rating:4.5)
-rating48 = Rating.create(user_id:u1.id, product_id:product16.id, rating:4.5)
+rating39 = Rating.create(user_id:u11.id, product_id:product13.id, rating:2.5)
+comment22 = Comment.create(user_id:u11.id, product_id:product13.id, body:"good return for the price we pay. Totally worth it")
+# =====================product14 =============================================
+rating40 = Rating.create(user_id:u3.id, product_id:product14.id, rating:3.5)
+comment22 = Comment.create(user_id:u3.id, product_id:product14.id, body:"good return for the price we pay. Totally worth it")
 
-rating49 = Rating.create(user_id:u1.id, product_id:product17.id, rating:2)
-rating50 = Rating.create(user_id:u1.id, product_id:product17.id, rating:2)
-rating50 = Rating.create(user_id:u1.id, product_id:product17.id, rating:2)
+rating41 = Rating.create(user_id:u9.id, product_id:product14.id, rating:4.5)
+comment22 = Comment.create(user_id:u9.id, product_id:product14.id, body:"good return for the price we pay. Totally worth it")
 
-rating51 = Rating.create(user_id:u1.id, product_id:product18.id, rating:2.5)
-rating52 = Rating.create(user_id:u1.id, product_id:product18.id, rating:4.5)
-rating53 = Rating.create(user_id:u1.id, product_id:product18.id, rating:4.5)
+rating42 = Rating.create(user_id:u4.id, product_id:product14.id, rating:1.5)
+comment22 = Comment.create(user_id:u4.id, product_id:product14.id, body:"good return for the price we pay. Totally worth it")
+# =====================product15 =============================================
+rating43 = Rating.create(user_id:u4.id, product_id:product15.id, rating:4.5)
+comment22 = Comment.create(user_id:u4.id, product_id:product15.id, body:"good return for the price we pay. Totally worth it")
 
-rating54 = Rating.create(user_id:u1.id, product_id:product19.id, rating:4.5)
-rating55 = Rating.create(user_id:u1.id, product_id:product19.id, rating:4.5)
-rating56 = Rating.create(user_id:u1.id, product_id:product19.id, rating:4.5)
+rating44 = Rating.create(user_id:u14.id, product_id:product15.id, rating:4.5)
+comment22 = Comment.create(user_id:u14.id, product_id:product15.id, body:"good return for the price we pay. Totally worth it")
 
-rating57 = Rating.create(user_id:u1.id, product_id:product20.id, rating:3.5)
-rating58 = Rating.create(user_id:u1.id, product_id:product20.id, rating:3.5)
-rating59 = Rating.create(user_id:u1.id, product_id:product20.id, rating:3.5)
+rating45 = Rating.create(user_id:u19.id, product_id:product15.id, rating:4.5)
+comment22 = Comment.create(user_id:u19.id, product_id:product15.id, body:"good return for the price we pay. Totally worth it")
+# =====================product16 =============================================
+rating46 = Rating.create(user_id:u16.id, product_id:product16.id, rating:4.5)
+comment22 = Comment.create(user_id:u16.id, product_id:product16.id, body:"good return for the price we pay. Totally worth it")
 
-rating60 = Rating.create(user_id:u4.id, product_id:product21.id, rating:4.5)
+rating47 = Rating.create(user_id:u6.id, product_id:product16.id, rating:4.5)
+comment22 = Comment.create(user_id:u6.id, product_id:product16.id, body:"good return for the price we pay. Totally worth it")
+
+rating48 = Rating.create(user_id:u4.id, product_id:product16.id, rating:4.5)
+comment22 = Comment.create(user_id:u4.id, product_id:product16.id, body:"good return for the price we pay. Totally worth it")
+# =====================product17=============================================
+rating49 = Rating.create(user_id:u15.id, product_id:product17.id, rating:2)
+comment22 = Comment.create(user_id:u15.id, product_id:product17.id, body:"good return for the price we pay. Totally worth it")
+
+rating50 = Rating.create(user_id:u16.id, product_id:product17.id, rating:2)
+comment22 = Comment.create(user_id:u16.id, product_id:product17.id, body:"good return for the price we pay. Totally worth it")
+
+rating50 = Rating.create(user_id:u18.id, product_id:product17.id, rating:2)
+comment22 = Comment.create(user_id:u18.id, product_id:product17.id, body:"good return for the price we pay. Totally worth it")
+# =====================product18 =============================================
+rating51 = Rating.create(user_id:u14.id, product_id:product18.id, rating:2.5)
+comment22 = Comment.create(user_id:u14.id, product_id:product18.id, body:"good return for the price we pay. Totally worth it")
+rating52 = Rating.create(user_id:u13.id, product_id:product18.id, rating:4.5)
+comment22 = Comment.create(user_id:u13.id, product_id:product18.id, body:"good return for the price we pay. Totally worth it")
+rating53 = Rating.create(user_id:u12.id, product_id:product18.id, rating:4.5)
+comment22 = Comment.create(user_id:u12.id, product_id:product18.id, body:"good return for the price we pay. Totally worth it")
+# =====================product19 =============================================
+rating54 = Rating.create(user_id:u2.id, product_id:product19.id, rating:4.5)
+comment22 = Comment.create(user_id:u2.id, product_id:product19.id, body:"good return for the price we pay. Totally worth it")
+rating55 = Rating.create(user_id:u3.id, product_id:product19.id, rating:4.5)
+comment22 = Comment.create(user_id:u3.id, product_id:product19.id, body:"good return for the price we pay. Totally worth it")
+rating56 = Rating.create(user_id:u4.id, product_id:product19.id, rating:4.5)
+comment22 = Comment.create(user_id:u4.id, product_id:product19.id, body:"good return for the price we pay. Totally worth it")
+# =====================product20 =============================================
+rating57 = Rating.create(user_id:u17.id, product_id:product20.id, rating:3.5)
+comment22 = Comment.create(user_id:u17.id, product_id:product20.id, body:"good return for the price we pay. Totally worth it")
+rating58 = Rating.create(user_id:u7.id, product_id:product20.id, rating:3.5)
+comment22 = Comment.create(user_id:u7.id, product_id:product20.id, body:"good return for the price we pay. Totally worth it")
+rating59 = Rating.create(user_id:u4.id, product_id:product20.id, rating:3.5)
+comment22 = Comment.create(user_id:u4.id, product_id:product20.id, body:"good return for the price we pay. Totally worth it")
+# =====================product21 =============================================
+rating60 = Rating.create(user_id:u7.id, product_id:product21.id, rating:4.5)
+comment22 = Comment.create(user_id:u7.id, product_id:product21.id, body:"good return for the price we pay. Totally worth it")
 rating61 = Rating.create(user_id:u9.id, product_id:product21.id, rating:4.5)
+comment22 = Comment.create(user_id:u9.id, product_id:product21.id, body:"good return for the price we pay. Totally worth it")
 rating62 = Rating.create(user_id:u18.id, product_id:product21.id, rating:4.5)
-
+comment22 = Comment.create(user_id:u18.id, product_id:product21.id, body:"good return for the price we pay. Totally worth it")
+# =====================product22 =============================================
 rating63 = Rating.create(user_id:u13.id, product_id:product22.id, rating:4)
+comment22 = Comment.create(user_id:u13.id, product_id:product22.id, body:"good return for the price we pay. Totally worth it")
 rating64 = Rating.create(user_id:u17.id, product_id:product22.id, rating:4)
+comment22 = Comment.create(user_id:u17.id, product_id:product22.id, body:"good return for the price we pay. Totally worth it")
 rating65 = Rating.create(user_id:u18.id, product_id:product22.id, rating:4)
+comment22 = Comment.create(user_id:u18.id, product_id:product22.id, body:"good return for the price we pay. Totally worth it")
 rating66 = Rating.create(user_id:u16.id, product_id:product22.id, rating:4)
-
+comment22 = Comment.create(user_id:u16.id, product_id:product22.id, body:"good return for the price we pay. Totally worth it")
+# =====================product23=============================================
 rating67 = Rating.create(user_id:u11.id, product_id:product23.id, rating:4.5)
+comment22 = Comment.create(user_id:u11.id, product_id:product23.id, body:"good return for the price we pay. Totally worth it")
 rating68 = Rating.create(user_id:u14.id, product_id:product23.id, rating:4.5)
+comment22 = Comment.create(user_id:u14.id, product_id:product23.id, body:"good return for the price we pay. Totally worth it")
 rating69 = Rating.create(user_id:u15.id, product_id:product23.id, rating:4.5)
+comment22 = Comment.create(user_id:u15.id, product_id:product23.id, body:"good return for the price we pay. Totally worth it")
 
 rating70 = Rating.create(user_id:u2.id, product_id:product24.id, rating:3)
+comment22 = Comment.create(user_id:u2.id, product_id:product24.id, body:"good return for the price we pay. Totally worth it")
 rating71 = Rating.create(user_id:u1.id, product_id:product24.id, rating:3)
+comment22 = Comment.create(user_id:u1.id, product_id:product24.id, body:"good return for the price we pay. Totally worth it")
 rating72 = Rating.create(user_id:u9.id, product_id:product24.id, rating:3)
+comment22 = Comment.create(user_id:u9.id, product_id:product24.id, body:"good return for the price we pay. Totally worth it")
 rating73 = Rating.create(user_id:u17.id, product_id:product24.id, rating:3.5)
+comment22 = Comment.create(user_id:u17.id, product_id:product24.id, body:"good return for the price we pay. Totally worth it")
+# =====================product24 =============================================
 rating74 = Rating.create(user_id:u10.id, product_id:product23.id, rating:1.5)
+comment22 = Comment.create(user_id:u10.id, product_id:product23.id, body:"good return for the price we pay. Totally worth it")
 rating75 = Rating.create(user_id:u8.id, product_id:product22.id, rating:1.5)
+comment22 = Comment.create(user_id:u8.id, product_id:product22.id, body:"good return for the price we pay. Totally worth it")
 rating76 = Rating.create(user_id:u13.id, product_id:product21.id, rating:2)
+comment22 = Comment.create(user_id:u13.id, product_id:product21.id, body:"good return for the price we pay. Totally worth it")
 rating77 = Rating.create(user_id:u12.id, product_id:product11.id, rating:2)
+comment22 = Comment.create(user_id:u12.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
 rating78 = Rating.create(user_id:u3.id, product_id:product10.id, rating:3)
+comment22 = Comment.create(user_id:u3.id, product_id:product10.id, body:"good return for the price we pay. Totally worth it")
 rating79 = Rating.create(user_id:u4.id, product_id:product11.id, rating:3)
+comment22 = Comment.create(user_id:u4.id, product_id:product11.id, body:"good return for the price we pay. Totally worth it")
 rating80 = Rating.create(user_id:u7.id, product_id:product21.id, rating:3)
+comment22 = Comment.create(user_id:u7.id, product_id:product21.id, body:"good return for the price we pay. Totally worth it")
 rating81 = Rating.create(user_id:u6.id, product_id:product23.id, rating:3)
+comment22 = Comment.create(user_id:u6.id, product_id:product23.id, body:"good return for the price we pay. Totally worth it")
 rating82 = Rating.create(user_id:u5.id, product_id:product2.id, rating:3.5)
+comment22 = Comment.create(user_id:u7.id, product_id:product2.id, body:"good return for the price we pay. Totally worth it")
 rating83 = Rating.create(user_id:u5.id, product_id:product1.id, rating:3)
+comment22 = Comment.create(user_id:u7.id, product_id:product1.id, body:"good return for the price we pay. Totally worth it")
 
  
 

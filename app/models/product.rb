@@ -20,7 +20,7 @@ class Product < ApplicationRecord
     validates :name, presence:true 
     validates :details, presence:true 
     validates :price, presence:true 
-    validates :category, presence:true, inclusion:{in:['Art', 'Electronics', 'Books', 'Food', 'Cloths', 'Shoes','Beverage','Jewelry','Others' ]}
+    validates :category, presence:true, inclusion:{in:['Art', 'Electronics', 'Books', 'Food', 'Clothes', 'Shoes','Beverage','Jewelry','Others' ]}
      
     
     has_many :order_lists, foreign_key: :product_id, class_name: :OrderList
