@@ -2143,8 +2143,8 @@ var OrderList = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       var products = this.props.products;
-      var count = products.length;
       var orderlists = this.props.orderLists;
+      var count = orderlists.length;
 
       if (this.props !== [] && this.props) {
         var productIds = orderlists.map(function (order) {

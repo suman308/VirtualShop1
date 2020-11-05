@@ -70,8 +70,8 @@ class OrderList extends React.Component {
     
     render(){
         const products = this.props.products
-        const count = products.length;
         const orderlists = this.props.orderLists
+        const count = orderlists.length;
 
         if (this.props !== [] && this.props ) {
 
