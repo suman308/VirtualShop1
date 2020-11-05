@@ -16,10 +16,11 @@ class CommentIndex extends React.Component {
         let num = rating1 ? rating1.rating : 0
         let rate = []
         while(num > 0) {
-            if(num > 0 && num < 1){
-                rate.push(<div className="small-rating">{halfStarIcon}</div>)
-            } 
-            rate.push(<div className="small-rating">{starIcon}</div>)
+            if(num >= 1){
+                rate.push(<div className="small-rating">{starIcon}</div>)
+            }else if(num > 0 && num < 1) {
+            rate.push(<div className="small-rating">{halfStarIcon}</div>)
+            }
             num = num -1; 
 
             

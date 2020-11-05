@@ -24,18 +24,18 @@ class Rating extends React.Component {
 
 
              const rate = function(ratings){
-                if(ratings !=0 ){
+                
                  let starIcon1 = []
-                 while(ratings >= 1 ){
+                 while(ratings > 0 ){
+                     if(ratings >=1 ) {
                      starIcon1.push(<div className="starIcon">{starIcon}</div>)
-                 ratings = ratings - 1; 
-                 }
-                 if (ratings > 0 && ratings < 1) {
-                     starIcon1.push(<div className="starIcon" >{halfStarIcon}</div>)
-                 }
-                 return starIcon1;
-             }
-            
+                    }else if (ratings > 0 && ratings < 1) {
+                             starIcon1.push(<div className="starIcon" >{halfStarIcon}</div>)
+                         }
+                    ratings = ratings - 1; 
+                }
+                return starIcon1;
+                
            }
              const star = rate(aveRating)
              

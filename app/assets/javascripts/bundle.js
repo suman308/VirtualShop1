@@ -1299,15 +1299,16 @@ var CommentIndex = /*#__PURE__*/function (_React$Component) {
       var rate = [];
 
       while (num > 0) {
-        if (num > 0 && num < 1) {
+        if (num >= 1) {
+          rate.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+            className: "small-rating"
+          }, _app_assets_images_icons__WEBPACK_IMPORTED_MODULE_1__["starIcon"]));
+        } else if (num > 0 && num < 1) {
           rate.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
             className: "small-rating"
           }, _app_assets_images_icons__WEBPACK_IMPORTED_MODULE_1__["halfStarIcon"]));
         }
 
-        rate.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "small-rating"
-        }, _app_assets_images_icons__WEBPACK_IMPORTED_MODULE_1__["starIcon"]));
         num = num - 1;
       }
 
@@ -3502,24 +3503,23 @@ var Rating = /*#__PURE__*/function (_React$Component) {
       }
 
       var rate = function rate(ratings) {
-        if (ratings != 0) {
-          var starIcon1 = [];
+        var starIcon1 = [];
 
-          while (ratings >= 1) {
+        while (ratings > 0) {
+          if (ratings >= 1) {
             starIcon1.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
               className: "starIcon"
             }, _app_assets_images_icons__WEBPACK_IMPORTED_MODULE_1__["starIcon"]));
-            ratings = ratings - 1;
-          }
-
-          if (ratings > 0 && ratings < 1) {
+          } else if (ratings > 0 && ratings < 1) {
             starIcon1.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
               className: "starIcon"
             }, _app_assets_images_icons__WEBPACK_IMPORTED_MODULE_1__["halfStarIcon"]));
           }
 
-          return starIcon1;
+          ratings = ratings - 1;
         }
+
+        return starIcon1;
       };
 
       var star = rate(aveRating);
