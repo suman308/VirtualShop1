@@ -70,7 +70,7 @@ product12= Product.create(name:"Shakespare-play", details:"The collection of the
 # --------------------------the product under the clothes categroy --------------------------------------
 product13= Product.create(name:"Hoodies", details:"The medium size hoodies with  varied color of choice ", price:14.23, category:'Clothes', store_id: store9.id)
 product14= Product.create(name:"Men-jeans", details:"The blue dark  jeans for men with 100 percent cotton from america.It is stretchy and comfortable", price:14.23, category:'Clothes', store_id: store10.id)
-product15= Product.create(name:"sneakers", details:"Super cool design sneakers with colorful options", price:44.23, category:'Clothes', store_id: store9.id)
+product15= Product.create(name:"sneakers", details:"Super cool design sneakers with colorful options", price:44.23, category:'Shoes', store_id: store9.id)
 product16= Product.create(name:"T-shirt", details:"The 100 percent cotton T-shirt with different color choices and comes in three standard size small, medium and large", price:20.45, category:'Clothes', store_id: store4.id)
 
 # --------------------------the product under the Electronics categroy --------------------------------------
