@@ -2187,7 +2187,7 @@ var OrderList = /*#__PURE__*/function (_React$Component) {
         var message = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
           className: "No-item"
         }, " You do not  have items in the cart right now ");
-        var output = products.length ? lists : message;
+        var output = orderlists.length ? lists : message;
         var pric = 0;
         console.log(ram);
 
@@ -2208,7 +2208,7 @@ var OrderList = /*#__PURE__*/function (_React$Component) {
           className: "under-main-cart"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
           className: "items-in-cart"
-        }, "You have ", count, " item(s) in the cart"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        }, count, " Total Item(s) "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "cart-outer"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "cart"

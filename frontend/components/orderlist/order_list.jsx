@@ -107,7 +107,7 @@ class OrderList extends React.Component {
             checkedOut={obj.checked_out} key={idx}/>)
            
             const message = <h1 className="No-item"> You do not  have items in the cart right now </h1>
-            const output  = (products.length) ? lists : message;
+            const output  = (orderlists.length) ? lists : message;
             let pric = 0;
             
            console.log(ram)
@@ -125,7 +125,7 @@ class OrderList extends React.Component {
               <div className="main-cart-page" >
                   <div className="just-under-main-cart">
                   <div className="under-main-cart">
-                    <h1 className="items-in-cart">You have {count} item(s) in the cart</h1>
+                    <h1 className="items-in-cart">{count} Total Item(s) </h1>
                         <div className="cart-outer"> 
                             <div className="cart">
                             {output} 
