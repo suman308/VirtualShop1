@@ -112,7 +112,7 @@ picArtGanesh1 = open("https://virtualshop-dev.s3-us-west-1.amazonaws.com/ganesh.
 picArtGanesh2 = open("https://virtualshop-dev.s3-us-west-1.amazonaws.com/ganesh2.jpg")
 picArtGanesh3 = open("https://virtualshop-dev.s3-us-west-1.amazonaws.com/ganesh3.jpg")
 
-# jesus 
+# jesus-painting
 
 picArtJesus1 = open("https://virtualshop-dev.s3-us-west-1.amazonaws.com/jesus1.jpg")
 picArtJesus2 = open("https://virtualshop-dev.s3-us-west-1.amazonaws.com/jesus2.jpg")

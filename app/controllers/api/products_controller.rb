@@ -34,6 +34,7 @@ class Api::ProductsController < ApplicationController
         @product = Product.find_by(id: params[:id])
         if @product 
                render 'api/products/show'
+               
         else 
             render json: @product.errors.full_messages, status: 422
         end 
